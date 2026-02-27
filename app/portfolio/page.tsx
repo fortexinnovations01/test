@@ -2,8 +2,8 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { galleryImages, GalleryImage } from '@/data/gallery';
-import { GalleryCategory } from '@/types';
+import { galleryImages } from '@/data/gallery';
+import { GalleryCategory, GalleryImage } from '@/types';
 
 export default function PortfolioPage() {
   const [selectedCategory, setSelectedCategory] = useState<GalleryCategory>('All');
